@@ -12,7 +12,7 @@ class A
 		{
 		   for(int j=0; j<C; j++)
 		   {
-			
+			M[i][j]=sc.nextInt();
 		   }
 		}
 	}
