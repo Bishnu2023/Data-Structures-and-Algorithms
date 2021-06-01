@@ -1,5 +1,11 @@
 class A
 {
+	public static void printMaxSubSquare(int M[][])
+	{
+		int R=M.length;
+		int C=M[0].length;
+		System.out.println(R+" "+C);	
+	}
 	public static void main(String args[])
 	{
 		int R,C;
@@ -15,5 +21,15 @@ class A
 			M[i][j]=sc.nextInt();
 		   }
 		}
+		System.out.println("The Elements of the Array are: ");
+		for(int i=0; i<R; i++)
+		{
+	           for(int j=0; j<C; j++)
+		   {
+		   	System.out.print(M[i][j]+" ");
+		   }
+		   System.out.println();
+		}
+
 	}
 }
