@@ -1,5 +1,7 @@
+import java.util.Scanner;
 class A
 {
+	static Scanner sc=new Scanner(System.in);
 	public static void printMaxSubSquare(int M[][])
 	{
 		int R=M.length;
@@ -8,7 +10,6 @@ class A
 	}
 	public static void main(String args[])
 	{
-		int R,C;
 		System.out.println("Enter the number of rows and columns: ");
 		int R=sc.nextInt();
 		int C=sc.nextInt();
