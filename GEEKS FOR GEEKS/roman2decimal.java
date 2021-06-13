@@ -64,7 +64,7 @@ class A
 		        	}
 				else
 				{
-					sum=sum+v2;
+					sum=sum+v1;
 					i++;
 				}
 				System.out.println("Value: "+sum);
